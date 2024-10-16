@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/background.JPG");
+    background-size: cover;
+}
+#nav{
+    text-align: center;
+    background-color: lightpink;
+
+}
+#nav a{
+    font-size: 30px;
+    margin: 30px;
+    color: white;
+}
+a:hover {
+    background-color: darkkhaki;
+}
+p{
+    text-align: center;
+    background-color: lightpink;
+    color: white;
+}
+.container {
+            width: 70%;
+            height: 450px;
+            display: flex;
+            gap: 10px;
+}
+.container img {
+            width: 10%;
+            height: 90%;
+            object-fit: cover;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: lightpink;
+}
+.container img:hover {
+            width: 25%;
+}
+.welcome h1 {
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 5px black;
+}
+img.asd{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content img{
+  width: 20;
+  height: 25;
+}}

@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(".../img/background.jpg");
+    background-size: cover;
+}
+
+#nav{
+	padding: 20px}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    margin: 20px;
+		border:100px;
+		padding:5px;
+		color: darkblue;
+}
+
+
+a:hover {
+	background-color: darkkhaki;
+}
+
+img.asd{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+ }
+	
+.title {
+			margin: 20;
+			margin-right: 745px;
+}
+
+a:hover {
+	background-color: lightpink;
+}
+table{
+
+	background-color: darkkhaki;
+}
+td{
+	border-radius: 10px; 
+	margin: 10px;
+	padding: 20px;
+}
+		
+.title {
+			margin: 20;
+			margin-right: 745px;
+}
+
+.container {
+			width: 70%;
+			height: 450px;
+			display: flex;
+			gap: 10px;
+		}
+.container img {
+			width: 15%;
+			height: 90%;
+			object-fit: cover;
+			border-radius: 10px;
+			border-style: solid;
+			border-color: lightblue;
+		}
+
+		.container img:nothover {
+			width: 25%;
+}
+
+
+.welcome h1 {
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 5px black;
+}
+
+audio {
+ 	margin-top: 50px
+ }
+
+ .centered-paragraph {
+    text-align: center;
+    background-color: lightpink;
+}
+p{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
